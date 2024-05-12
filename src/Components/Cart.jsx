@@ -39,8 +39,10 @@ const Cart = () => {
     }
     
     const removed=(id)=>{
+        
+        
+        setdata(data.filter((ele)=>ele.id !== id))
 
-        return data.filter((element)=>{element.id === id})
 
     }
     return (
@@ -75,7 +77,7 @@ const Cart = () => {
                 <button onClick={()=>addQuantity(element.id, element.quantity || 1)}>+</button>
                 <br />
                 <br />
-                <button onClick={()=>removed(element.id)}>Removed</button> 
+                <button onClick={()=>removed(element.id)}>Remove</button> 
                 </div>
                 
                 
