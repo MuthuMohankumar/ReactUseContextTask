@@ -1,0 +1,22 @@
+.top{
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+}
+
+.card{
+    border: 5px solid black;
+    margin: 5px;
+    padding: 15px;
+    background-color: lightsalmon;
+    height: 110vh;
+    width: 50vw;
+
+}
+
+button{
+    border: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
